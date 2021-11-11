@@ -11,7 +11,7 @@ Welcome to OpenSAFELY Documentation's documentation!
    :caption: Contents:
 
    introduction/protocol
-   cohortextractor/cohortextractor
+   code/code
 
 
 
