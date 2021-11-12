@@ -5,8 +5,9 @@ This is a template for an OpenSAFELY Core repository.
 Put your project description here.
 
 New repo checklist:
+
 - [ ] Does the repo require a Dockerfile?
-  If not, delete:
+      If not, delete:
   - Dockerfile -
   - .dockerignore
   - hadolint pre-commit hook from `.pre-commit-config.yaml`
@@ -14,7 +15,15 @@ New repo checklist:
 - [ ] Update DEVELOPERS.md with any project-specific requirements and commands
 - [ ] Update commands in `justfile`
 
-
 ## Developer docs
 
 Please see the [additional information](DEVELOPERS.md).
+
+## Local install
+
+```sh
+just devenv
+just html
+just serve
+# Go to http://localhost:8910/
+```

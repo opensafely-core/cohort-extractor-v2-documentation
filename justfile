@@ -107,3 +107,10 @@ fix: devenv
 # Run the dev project
 run: devenv
     echo "Not implemented yet"
+
+# Build the HTML
+html:
+    cd docs; make html
+
+serve:
+    python3 -m http.server 8910 --directory docs/build/html
